@@ -9,7 +9,7 @@ p{
 }
 
 .container{
-    height: 500px;
+    height: 520px;
     width: 300px;
     background-color: hsl(216, 50%, 16%);
     position: absolute;
@@ -80,7 +80,8 @@ p{
 .avatar{
     display: flex;
     border-top:1px solid hsl(215, 32%, 27%);
-    padding-top: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
     align-items: center;
 }
 
