@@ -16,7 +16,7 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px 10px  hsl(217, 54%, 11%);
+    box-shadow: 0px 0px 30px 20px  hsl(216, 53%, 7%);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -87,10 +87,12 @@ p{
 
 .blue_text{
     color: hsl(215, 51%, 70%);
+    font-weight: 300;
 }
 
 .eth_color{
     color: hsl(178, 100%, 50%);
+    font-weight: 400;
 }
 
 .text_block p:first-child{
