@@ -11,4 +11,59 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px 10px  hsl(217, 54%, 11%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_block{
+    height: 50%;
+    margin: 10px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+}
+
+.text_block{
+    height: 50%;
+    margin: 10px;
+}
+
+.text{
+    width: 100%;
+    margin: 10px;
+}
+
+.eth{
+    display: flex;
+    align-items: center;
+}
+
+.eth p{
+    margin-left: 10px;
+}
+
+.eth_clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar_pic{
+    width: 30px;
+    height: 30px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+}
+
+.avatar_p::after{
+    content: ' Jules Wyvern';
+}
+
+.avatar_p{
+    margin-left: 10px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
 }
