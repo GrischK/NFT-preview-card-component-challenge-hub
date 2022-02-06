@@ -2,6 +2,12 @@ body{
     background-color: hsl(217, 54%, 11%);
 }
 
+p{
+    font-family: 'outfit';
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
 .container{
     height: 500px;
     width: 300px;
@@ -17,15 +23,22 @@ body{
 }
 
 .img_block{
-    height: 50%;
-    margin: 10px;
+    height: 70%;
+    margin: 20px;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
+    border-radius: 10px;
 }
 
 .text_block{
     height: 50%;
-    margin: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_block p{
+    margin-top: 0;
 }
 
 .text{
@@ -39,7 +52,7 @@ body{
 }
 
 .eth p{
-    margin-left: 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 .eth_clock{
@@ -57,13 +70,28 @@ body{
 
 .avatar_p::after{
     content: ' Jules Wyvern';
+    color: hsl(0, 0%, 100%);
 }
 
 .avatar_p{
-    margin-left: 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 .avatar{
     display: flex;
+    border-top:1px solid hsl(215, 32%, 27%);
+    padding-top: 15px;
     align-items: center;
+}
+
+.blue_text{
+    color: hsl(215, 51%, 70%);
+}
+
+.eth_color{
+    color: hsl(178, 100%, 50%);
+}
+
+.text_block p:first-child{
+    font-weight: 600;
 }
