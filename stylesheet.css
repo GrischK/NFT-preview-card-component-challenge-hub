@@ -23,8 +23,8 @@ p{
 }
 
 .img_block{
-    height: 70%;
-    margin: 20px;
+    height: 60%;
+    margin: 20px 20px 0px 20px;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
     border-radius: 10px;
@@ -35,7 +35,7 @@ p{
     margin: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .text_block p{
     margin-top: 0;
